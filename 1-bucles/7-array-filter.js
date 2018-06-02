@@ -35,3 +35,7 @@ let gente = [{
     },
 ]
 
+let grupoFiltrado = gente.filter(persona=>(persona.nombre.charAt(0)==='J'&&persona.edad<40));
+console.log(grupoFiltrado);
+
+

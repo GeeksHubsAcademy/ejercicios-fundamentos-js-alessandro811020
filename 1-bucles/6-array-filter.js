@@ -33,3 +33,6 @@ let gente = [{
     },
 ]
 
+let grupoFiltrado = gente.filter(persona=>persona.nombre.length===4);
+console.log(grupoFiltrado);
+

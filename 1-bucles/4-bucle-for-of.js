@@ -33,3 +33,33 @@ let gente = [{
         edad: 10
     },
 ]
+
+let grupoNuevoParaNormal = [];
+let grupoNuevoForEach = [];
+let grupoNuevoForOf = [];
+
+//metodo por el for normal
+console.log('Metodo del for tradicional');
+for (let i = 0; i < gente.length; i++) {
+    if(gente[i].edad>25)
+    grupoNuevoParaNormal.push(gente[i])   
+}
+console.log(grupoNuevoParaNormal);
+
+//por el metodo del for each
+console.log('\nMetodo del for each');
+gente.forEach(persona => {
+    if(persona.edad>25)
+    grupoNuevoForEach.push(persona); 
+});
+console.log(grupoNuevoForEach);
+
+//metodo del for of
+console.log('\nMetodo del for of');
+for (let persona of gente) {
+    if(persona.edad>25)
+    grupoNuevoForOf.push(persona); 
+}
+console.log(grupoNuevoForOf);
+
+
