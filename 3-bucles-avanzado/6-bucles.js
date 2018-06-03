@@ -15,6 +15,7 @@ for (let i = 0; i < giveMeIntegerRandom(10); i++) {
 }
 console.log('El array original es:  arr =', arr);
 // Aquí tu código
+ let dobleArr = arr.map(item=>item*2);
 
 
 
