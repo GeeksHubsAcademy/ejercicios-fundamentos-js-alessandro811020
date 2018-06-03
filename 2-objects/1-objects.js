@@ -11,6 +11,17 @@
 // Hasta aquí
 
 // TEST 1
+let ordenador={
+    marca:'La pava',
+    tipo: 'portátil',
+    perifericos:['iPad','touchPad'],
+    almacenamiento:{
+        maestro:0,
+        discos:['SSD','HDD']
+    }
+}
+
+
 if (typeof ordenador === 'object') {
     console.log('apruebas');
 } else {

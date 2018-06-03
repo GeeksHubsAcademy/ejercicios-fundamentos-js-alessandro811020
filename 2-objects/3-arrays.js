@@ -10,6 +10,13 @@
 // Hasta aquí
 
 // TEST 1
+
+let arr = [
+    {name:'pepito', age:25},
+    {name:'pepito', age:40},
+    {name:'J', age:30}
+];
+
 if (typeof arr === 'object' && arr.length >= 0) {
     console.log('apruebas');
 } else {

@@ -9,6 +9,16 @@
 // Hasta aquí
 
 // TEST 1
+
+let obj = {
+    a:{
+        b:true,
+        c:[1,2]
+    },
+    d:6,
+    f:'lolo',
+}
+
 if (typeof obj === 'object') {
     console.log('apruebas');
 } else {
