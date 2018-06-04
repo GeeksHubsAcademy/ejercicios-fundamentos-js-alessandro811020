@@ -14,7 +14,11 @@
 let extraerAcronimo = (...input) => {
     let acronimo = '';
     // Aquí tu código.  Desde aquí:
-   
+    //let iniciales= input.map(item=>item.charAt(0));
+    for (let texto of input) {
+        acronimo+=texto.charAt(0);
+    }
+    //acronimo=iniciales.join('');
     // Hasta aquí.
     return acronimo;
 }
